@@ -3,50 +3,57 @@
   padding: 0%;
   box-sizing: border-box;
 }
-.navbar-text{
-  font-size: 25px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
 
-.navbar .titulo{
+.navbar .navbar-text{
+  font-size: 20px;
   color: white;
-  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-right: 20%;
 }
 
+.navbar-toggler{
+  border: none;
+}
+p{
+  color: black;
+}
 .proyectos{
   text-align: center;
   height: 40px;
   width: auto;
-  background-color: grey;
+  /*  background-color: grey; */
   text-shadow: 5px white;
 }
-.galeria{
+.galeria {
   width: 100%;
 }
-.galeria img{
+.galeria img {
   object-fit: cover;
   position: center;
   width: 100%;
   height: 50%;
 }
-.galeria ul li{
+.galeria ul li {
   height: 15px;
   height: 15px;
   background-color: black;
 }
-.carousel-control-prev-icon{
+.carousel-inner {
+  height: 500px;
+  width: 100%;
+}
+.carousel-control-prev-icon {
   height: 20px;
   width: 20px;
   padding: 10px;
   background-color: black;
 }
-.carousel-control-next-icon{
+.carousel-control-next-icon {
   height: 20px;
   width: 20px;
   padding: 10px;
   background-color: black;
 }
-
 
 h2 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -55,24 +62,29 @@ h2 {
 }
 
 h3 {
+  margin-top: 20px;
   text-align: center;
   font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-#proyectos{
+#proyectos {
   text-align: center;
 }
 
-main .hailidadess{
-    text-align: center;
-    border: 3px solid purple;
-    padding: 5px;
-    box-sizing: border-box;
-    width: 200px;
-    height: 250px;
-    margin: auto;
+main {
+  text-align: center;
+  padding: 5px;
+  box-sizing: border-box;
+  width: 200px;
+  height: 250px;
+  margin: auto;
 }
 
-
+img {
+  margin-top: 20px;
+  width: 50%;
+  height: 50%;
+}
 
 li {
   text-align: center;
@@ -89,7 +101,6 @@ li {
   width: 30%;
   background-color: white;
   border: 2px solid black;
-  box-shadow: 1px 1px 1px 1px #000;
 }
 
 .card:hover {
@@ -136,41 +147,43 @@ h5 {
   text-align: center;
   padding: 20px;
 }
-.producto .btn{
+.producto .btn {
   align-items: center;
 }
 
-textarea{
+textarea {
   margin-left: 10px;
 }
 
-div .enviar{
-margin-left: 10px;
+div .enviar {
+  margin-left: 10px;
 }
 
-aside{
+aside {
   height: 250px;
 }
 
-.nleft{
+.nleft {
   height: 450px;
   background-image: url(img/webprogramer.jpg);
   background-size: cover;
   background-position: center;
 }
 
-.nright{
+.nright {
   color: antiquewhite;
 }
-
 
 .footer {
   height: auto;
   width: 100%;
-  font-size: 30px;
+  font-size: 40px;
   color: black;
   background-color: darkgray;
   text-align: center;
   letter-spacing: 15px;
-  margin-top: 10px;
+  margin-top: 10%;
+}
+a{
+  color: black;
 }
