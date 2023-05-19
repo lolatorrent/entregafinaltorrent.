@@ -4,31 +4,45 @@
   box-sizing: border-box;
 }
 
-.navbar .navbar-text{
-  font-size: 20px;
+.navbar .navbar-text {
+  font-size: 25px;
   color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin-right: 20%;
 }
 
-.navbar-toggler{
+.navbar-toggler {
   border: none;
 }
-p{
+
+.home p {
+  margin-top: 20px;
   color: black;
+  font-size: 25px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
-.proyectos{
+.home .btn {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.titulos {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
   text-align: center;
   height: 40px;
   width: auto;
-  /*  background-color: grey; */
   text-shadow: 5px white;
+  color: black;
+  margin-bottom: 25px;
 }
+
 .galeria {
   width: 100%;
 }
 .galeria img {
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   position: center;
   width: 100%;
   height: 50%;
@@ -38,17 +52,13 @@ p{
   height: 15px;
   background-color: black;
 }
+
 .carousel-inner {
   height: 500px;
   width: 100%;
 }
-.carousel-control-prev-icon {
-  height: 20px;
-  width: 20px;
-  padding: 10px;
-  background-color: black;
-}
-.carousel-control-next-icon {
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
   height: 20px;
   width: 20px;
   padding: 10px;
@@ -67,45 +77,16 @@ h3 {
   font-size: 30px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-#proyectos {
+
+#proyectos, li {
   text-align: center;
 }
 
-main {
-  text-align: center;
-  padding: 5px;
-  box-sizing: border-box;
-  width: 200px;
-  height: 250px;
-  margin: auto;
-}
-
-img {
-  margin-top: 20px;
-  width: 50%;
-  height: 50%;
-}
-
-li {
-  text-align: center;
-}
-
-.producto {
+.video {
   display: flex;
-  justify-content: space-evenly;
-  background-color: grey;
-}
-
-.card {
-  height: 500px;
-  width: 30%;
-  background-color: white;
-  border: 2px solid black;
-}
-
-.card:hover {
-  transform: scale(1.02);
-  transition: all 0.9s;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
 }
 
 .card1 .card-img {
@@ -121,8 +102,16 @@ li {
   background-position: center;
   height: 200px;
 }
+
 .card3 .card-img {
   background-image: url(img/luna.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+}
+
+.card4 .card-img {
+  background-image: url(img/boardd.jpg);
   background-size: cover;
   background-position: center;
   height: 200px;
@@ -142,20 +131,7 @@ h5 {
   font-size: 18px;
 }
 
-.producto p {
-  font-size: 14px;
-  text-align: center;
-  padding: 20px;
-}
-.producto .btn {
-  align-items: center;
-}
-
-textarea {
-  margin-left: 10px;
-}
-
-div .enviar {
+textarea, div .enviar {
   margin-left: 10px;
 }
 
@@ -171,19 +147,108 @@ aside {
 }
 
 .nright {
-  color: antiquewhite;
+  color: black;
+}
+
+#parrafosobre {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+#botonsobre {
+  margin-left: 10px;
+  margin-top: 10px;
 }
 
 .footer {
-  height: auto;
   width: 100%;
   font-size: 40px;
   color: black;
+  margin-top: 20px;
   background-color: darkgray;
   text-align: center;
   letter-spacing: 15px;
-  margin-top: 10%;
 }
-a{
+
+a {
   color: black;
 }
+
+#formGroupExampleInput {
+  padding-left: 10px;
+}
+
+.form-group {
+  padding-left: 10px;
+}
+
+#exampleFormControlInput1 {
+  padding-left: 10px;
+}
+
+#exampleFormControlInput2 {
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+
+.enviar {
+  padding: 10px;
+}
+
+.card {
+  height: 500px;
+  width: 30%;
+  background-color: white;
+  border: 2px solid black;
+}
+.card :hover {
+  transform: scale(1.02);
+  transition: all 0.9s;
+}
+
+main {
+  text-align: center;
+  padding: 5px;
+  box-sizing: border-box;
+  width: 200px;
+  height: 250px;
+  margin: auto;
+}
+main img {
+  margin-top: 20px;
+  width: 50%;
+  height: 50%;
+}
+
+body {
+  background: linear-gradient(to left, white, grey);
+}
+
+#footerindex {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.producto {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: grey;
+}
+.producto p {
+  font-size: 14px;
+  text-align: center;
+  padding: 20px;
+}
+.producto .btn {
+  align-items: center;
+}
+
+#mapa {
+  margin-top: 20px;
+}
+
+.escribime {
+  margin-left: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}/*# sourceMappingURL=estilos.css.map */

@@ -1,0 +1,267 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.navbar .navbar-text{
+    font-size: 25px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 20%;
+}
+
+.navbar-toggler{
+    border: none;
+}
+
+.home{
+p{
+    margin-top: 20px;
+    color: black;
+    font-size: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.btn{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+}
+
+.titulos{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    height: 40px;
+    width: auto;
+    text-shadow: 5px white;
+    color: black;
+    margin-bottom: 25px;
+}
+
+.galeria {
+    width: 100%;
+    img{
+        object-fit: cover;
+        position: center;
+        width: 100%;
+        height: 50%;
+    }
+    ul li {
+        height: 15px;
+        height: 15px;
+        background-color: black;
+    }
+}
+
+.carousel-inner {
+    height: 500px;
+    width: 100%;
+}
+
+.carousel-control-prev-icon {
+    height: 20px;
+    width: 20px;
+    padding: 10px;
+    background-color: black;
+}
+
+.carousel-control-next-icon {
+@extend .carousel-control-prev-icon;
+}
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+h3 {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#proyectos {
+    text-align: center;
+}
+
+.video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px
+}
+
+
+li {
+    @extend #proyectos;
+}
+
+.card1 .card-img {
+    background-image: url(img/IMG_B3E6CF34F365-1.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+}
+
+.card2 .card-img {
+    background-image: url(img/IMG_7107.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+}
+.card3 .card-img {
+    background-image: url(img/luna.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+}
+
+.card4 .card-img {
+    background-image: url(img/boardd.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+}
+
+.producto h4 {
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: o o 5px #000;
+    padding: 30px;
+}
+
+h5 {
+    text-align: center;
+    font-size: 18px;
+}
+
+textarea {
+    margin-left: 10px;
+}
+
+div .enviar {
+    @extend textarea
+}
+
+aside {
+    height: 250px;
+}
+
+
+.nleft {
+    height: 450px;
+    background-image: url(img/webprogramer.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.nright {
+    color: black;
+}
+
+#parrafosobre{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#botonsobre{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.footer {
+    width: 100%;
+    font-size: 40px;
+    color: black;
+    margin-top: 20px;
+    background-color: darkgray;
+    text-align: center;
+    letter-spacing: 15px;
+}
+a{
+    color: black;
+}
+
+#formGroupExampleInput{
+    padding-left: 10px;
+}
+
+.form-group{
+    padding-left: 10px;
+}
+
+#exampleFormControlInput1{
+    padding-left: 10px;
+}
+
+#exampleFormControlInput2{
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+.enviar{
+    padding: 10px;
+}
+
+.card {
+    height: 500px;
+    width: 30%;
+    background-color: white;
+    border: 2px solid black;
+    :hover{
+    transform: scale(1.02);
+    transition: all 0.9s;
+    }
+}
+
+main {
+    text-align: center;
+    padding: 5px;
+    box-sizing: border-box;
+    width: 200px;
+    height: 250px;
+    margin: auto;
+    
+    img {
+        margin-top: 20px;
+        width: 50%;
+        height: 50%;
+        
+    }
+}
+body{
+    background: linear-gradient(to left, white, grey );
+}
+
+#footerindex{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.producto{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: grey;
+    p{  
+        font-size: 14px;
+        text-align: center;
+        padding: 20px;
+    }
+    .btn{
+        align-items: center;
+    }
+}
+
+#mapa{
+    margin-top: 20px;
+}
+
+.escribime{
+    margin-left: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
